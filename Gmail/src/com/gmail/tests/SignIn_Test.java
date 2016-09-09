@@ -25,7 +25,7 @@ public class SignIn_Test implements ConstantValues {
 	Implementing the SELENIUM GRID
 	------------------------------*/
 	
-	private RemoteWebDriver driver;
+	private WebDriver driver;
 	
 	SoftAssert softAssert = new SoftAssert();
 	public Excel excel_Instance;
@@ -34,12 +34,14 @@ public class SignIn_Test implements ConstantValues {
 
 	@BeforeClass
 	public void SetUp() throws IOException {
-		DesiredCapabilities capabilities = new DesiredCapabilities();
+		/*DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setPlatform(Platform.VISTA);
 		capabilities.setBrowserName(BrowserType.FIREFOX);
 
 
-		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);*/
+		
+		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize(); 
 		driver.get("https://accounts.google.com/ServiceLogin?sacu=1&scc=1#identifier");
