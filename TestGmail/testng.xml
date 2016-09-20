@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Suite1" verbose="1" parallel="tests" >
+<!--   <test name="Node_1" >
+    <classes>
+       <class name="com.gmail.tests.SignIn_Test" />
+    </classes>
+  </test> -->
+
+  <test name="Node_2">
+    <classes>
+      <class name="com.gmail.tests.ParameterSample"/>
+    </classes>
+  </test>
+</suite>
+

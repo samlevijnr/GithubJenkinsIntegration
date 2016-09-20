@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="80389" started-at="2016-09-20T08:19:14Z" finished-at="2016-09-20T08:20:34Z">
+    <groups>
+    </groups>
+    <test name="Node_2" duration-ms="80389" started-at="2016-09-20T08:19:14Z" finished-at="2016-09-20T08:20:34Z">
+      <class name="com.gmail.tests.ParameterSample">
+        <test-method status="PASS" signature="SetUpFF()[pri:0, instance:com.gmail.tests.ParameterSample@35bbe5e8]" name="SetUpFF" is-config="true" duration-ms="26090" started-at="2016-09-20T09:19:14Z" finished-at="2016-09-20T09:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpFF -->
+        <test-method status="PASS" signature="Test_SignInToEnteringEmailWithFF()[pri:0, instance:com.gmail.tests.ParameterSample@35bbe5e8]" name="Test_SignInToEnteringEmailWithFF" duration-ms="54235" started-at="2016-09-20T09:19:40Z" finished-at="2016-09-20T09:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_SignInToEnteringEmailWithFF -->
+      </class> <!-- com.gmail.tests.ParameterSample -->
+    </test> <!-- Node_2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
